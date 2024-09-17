@@ -1,4 +1,4 @@
-package github.macices.mercado_livre;
+package github.macices.mercado_livre.domain;
 
 import jakarta.persistence.*;
 

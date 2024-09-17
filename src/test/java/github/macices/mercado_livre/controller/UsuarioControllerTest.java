@@ -1,5 +1,6 @@
-package github.macices.mercado_livre;
+package github.macices.mercado_livre.controller;
 
+import github.macices.mercado_livre.TestUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -21,7 +22,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 @AutoConfigureMockMvc
 @Transactional
 class UsuarioControllerTest {
-
 
     MockMvc mockMvc;
 

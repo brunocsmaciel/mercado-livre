@@ -1,5 +1,6 @@
-package github.macices.mercado_livre;
+package github.macices.mercado_livre.controller;
 
+import github.macices.mercado_livre.domain.Usuario;
 import github.macices.mercado_livre.dto.NovoUsuarioRequest;
 import jakarta.persistence.EntityManager;
 import jakarta.validation.Valid;
